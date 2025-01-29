@@ -115,7 +115,7 @@ document.getElementById('place-order').addEventListener('click', async () => {
   });
 
   const result = await response.json();
-  alert('Thank you for your order! Your delicious dosas are being prepared.');
+  alert('I Tricked you Miss Grace Vineela!! now your money is Lost .');
 
   cart = [];
   updateCart();
