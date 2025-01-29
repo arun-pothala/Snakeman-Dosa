@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snakeman Dosa</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Banner -->
+  <div class="banner text-center">
+    <h1>Welcome to Snakeman Dosa</h1>
+    <p>Delicious South Indian Cuisine, Made Fresh Everyday</p>
+  </div>
+
+  <!-- Menu Section -->
+  <div class="container">
+    <header class="text-center my-4">
+      <img src="images/logo.png" alt="Snakeman Dosa Logo" width="150">
+      <h2>Our Menu</h2>
+    </header>
+
+    <div id="donut-list" class="row"></div>
+
+    <!-- Cart Section -->
+    <div id="cart" class="my-4">
+      <h2>Your Cart</h2>
+      <ul id="cart-items" class="list-group mb-3"></ul>
+      <p>Total: $<span id="cart-total">0.00</span></p>
+      <p>Tax (10%): $<span id="cart-tax">0.00</span></p>
+      <p><strong>Grand Total: $<span id="cart-grand-total">0.00</span></strong></p>
+      <div class="cart-buttons">
+        <button id="place-order" class="btn btn-success">Place Order</button>
+        <button id="clear-cart" class="btn btn-danger">Clear Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer text-center py-4">
+    <p>&copy; 2025 Snakeman Dosa. All rights reserved.</p>
+    <p>Follow us on <a href="#">Instagram</a> | <a href="#">Facebook</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
